@@ -91,7 +91,7 @@ jobs:
 
 - endpoint
   `可选`。
-  设置提交的搜索引擎。可用的值为`api.indexnow.org`, `www.bing.com`, `search.seznam.cz` 和 `yandex.com`。
+  设置提交的搜索引擎。可用的值为`api.indexnow.org`, `www.bing.com`, `search.seznam.cz`, `yandex.com` 和 `searchadvisor.naver.com`。
   更多内容请参考[IndexNow FAQ](https://www.indexnow.org/faq). 默认值是 `www.bing.com`。
 
 - limit

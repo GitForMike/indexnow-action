@@ -93,7 +93,7 @@ View code from [here](https://github.com/bojieyang/bojieyang.github.io/blob/mast
 
 - endpoint
   `optional`.
-  The endpoint of a special search engine. Available values are `api.indexnow.org`, `www.bing.com`, `search.seznam.cz` and `yandex.com`. For more details, see: [IndexNow FAQ](https://www.indexnow.org/faq). The default value is `www.bing.com`.
+  The endpoint of a special search engine. Available values are `api.indexnow.org`, `www.bing.com`, `search.seznam.cz`, `yandex.com` and `searchadvisor.naver.com`. For more details, see: [IndexNow FAQ](https://www.indexnow.org/faq). The default value is `www.bing.com`.
 
 - limit
   `optional`.

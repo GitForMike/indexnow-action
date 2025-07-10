@@ -24,7 +24,7 @@ inputs:
   endpoint:
     description: |
       The endpoint of a special search engine. 
-      Available units are api.indexnow.org, www.bing.com, search.seznam.cz and yandex.com. 
+      Available units are api.indexnow.org, www.bing.com, search.seznam.cz, yandex.com and searchadvisor.naver.com. 
       The default value is www.bing.com. For more details, see: https://www.indexnow.org/faq
     required: false
     default: 'www.bing.com'

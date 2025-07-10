@@ -9,7 +9,8 @@ export type Endpoint =
   | 'api.indexnow.org'
   | 'www.bing.com'
   | 'search.seznam.cz'
-  | 'yandex.com';
+  | 'yandex.com'
+  | 'searchadvisor.naver.com';
 
 export type FailureStrategy = 'error' | 'ignore';
 
@@ -139,7 +140,8 @@ export function isEndpoint(endpoint: string): endpoint is Endpoint {
     endpoint === 'api.indexnow.org' ||
     endpoint === 'www.bing.com' ||
     endpoint === 'search.seznam.cz' ||
-    endpoint === 'yandex.com'
+    endpoint === 'yandex.com' ||
+    endpoint === 'searchadvisor.naver.com'
   );
 }
 

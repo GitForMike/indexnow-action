@@ -5791,7 +5791,8 @@ function isEndpoint(endpoint) {
     return (endpoint === 'api.indexnow.org' ||
         endpoint === 'www.bing.com' ||
         endpoint === 'search.seznam.cz' ||
-        endpoint === 'yandex.com');
+        endpoint === 'yandex.com' ||
+        endpoint === 'searchadvisor.naver.com');
 }
 function parseLimitInput() {
     const limitInput = parseIntegerInput('limit');
